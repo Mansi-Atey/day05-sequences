@@ -1,3 +1,5 @@
 #!/bin/bash
 randomNumber=$((($RANDOM%6)+1))
-echo $randomNumber
+sum=$(($randomNumber + $randomNumber))
+echo "sum is :-" $sum
+
